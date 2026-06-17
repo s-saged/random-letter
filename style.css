@@ -19,7 +19,13 @@ body{
 
     overflow: hidden;
 }
-
+.ad-container{
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
 .box{
     width: 320px;
     height: 320px;
