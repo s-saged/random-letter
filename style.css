@@ -10,9 +10,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(circle at top left, #00f5ff, transparent),
-                radial-gradient(circle at bottom right, #ff00ff, transparent),
-                #0f0f0f;
+
+    background: 
+        radial-gradient(circle at 20% 20%, #00f5ff 0%, transparent 40%),
+        radial-gradient(circle at 80% 80%, #ff00ff 0%, transparent 40%),
+        radial-gradient(circle at 50% 50%, #ffffff10 0%, transparent 60%),
+        #050505;
+
     overflow: hidden;
 }
 
